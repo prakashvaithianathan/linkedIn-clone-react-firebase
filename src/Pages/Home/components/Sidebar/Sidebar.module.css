@@ -1,0 +1,205 @@
+.topBox{
+    width: 200px;
+    border-radius: 20px;
+    margin: 20px;
+    position: relative;
+    box-shadow: 2px 2px 2px grey;
+    height: auto;
+    background:white;
+    
+}
+
+.card{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+}
+
+.logo{
+    width: 30%;
+    border-radius:50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-60%);
+    margin-top: 20px;
+}
+
+.name{
+    font-size: small;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    padding: 15px 0 8px 0;
+}
+
+.connection{
+    display: flex;
+    flex-direction:column;
+    width: auto;
+    border-top: 1px solid rgba(128, 128, 128, 0.300);
+    padding-top: 20px ;
+    color: grey;
+    font-size: small;
+    margin-left: 5px;
+}
+
+.connection >p{
+    margin-left: 5px;
+}
+
+.widget{
+    position: absolute;
+    right: 10px;
+    margin-top: 10px;
+}
+
+.grow{
+    font-weight: 500;
+    color: black;
+}
+
+.access{
+    display:flex;
+    flex-direction: column;
+    font-size: small;
+    color: grey;
+    padding-top: 20px;
+    border-top: 1px solid rgba(128, 128, 128, 0.300);
+    margin-left: 10px;
+
+}
+.premium{
+    color:black;
+    font-weight: 500;
+}
+
+.items{
+    display:flex;
+     font-size: small;
+       color: grey;
+       border-top: 1px solid rgba(128, 128, 128, 0.300);
+       padding: 20px 10px;
+ margin-left: 3px;
+}
+
+.items >p{
+    margin-left: 5px;
+
+}
+
+
+
+/* second div */
+
+.bottomBox{
+    width: 200px;
+    border-radius: 20px;
+    margin: 20px;
+    position: sticky;
+    top: 90px;
+    box-shadow: 2px 2px 2px grey;
+    height: auto;
+    background:white
+    
+}
+
+.hashtag{
+    width: 10px;
+    color: grey;
+}
+.indiastudents{
+    display:flex;
+    align-items:center;
+    margin-left: 25px;
+    padding: 5px;
+}
+
+.indiastudents >p{
+    margin-left: 5px;
+    color: grey;
+}
+
+.india{
+    display:flex;
+    align-items: center;
+    margin-left: 25px;
+    padding: 5px;
+}
+
+
+.india >p{
+    margin-left: 5px;
+    color:grey
+}
+.india,.indiastudents >p{
+    font-size: small;
+}
+
+.groups{
+    color: rgb(1, 120, 255);
+     font-weight: 500;
+     font-size: small;
+     margin-left: 20px;
+     margin-top: 20px;
+}
+
+.events{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-left: 20px;
+     margin-top: 20px;
+     margin-right: 20px;
+
+}
+
+.followed{
+    color: rgb(1, 120, 255);
+    font-weight: 500;
+    font-size: small;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.events>p{
+    color: rgb(1, 120, 255);
+    font-weight: 500;
+    font-size: small;
+}
+
+.seeAll{
+    color: grey;
+    font-size: small;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+
+.discover{
+    color: grey;
+    font-weight: 700;
+    font-size: small;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    border-top:  1px solid rgba(128, 128, 128, 0.300);
+}
+
+.discover:hover{
+    background:rgba(211, 211, 211, 0.459);
+    border-radius: 0 0 20px 20px ;
+}
+
+.recent{
+    color: grey;
+    font-size: small;
+    padding-top:20px;
+    padding-left: 20px;
+    font-size: smaller;
+    margin-bottom: 10px;
+}
+

@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+}
+
+
+.font{
+    width: 400px;
+    margin: 50px;
+}
+
+.btn{
+    background:rgb(7, 180, 192) !important;
+    color: white  !important;
+}
